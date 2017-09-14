@@ -1,0 +1,211 @@
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 50px auto;
+    width: 800px;
+    padding-left: 30px;
+    padding-top: 40px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.3),-2px -4px 8px rgba(0,0,0,0.3);
+}
+header{
+    
+    margin: 50px 0;
+}
+.logo>img{
+    width: 160px;
+    border-radius: 50%;
+}
+.self-intro{
+    margin-left:30px;
+}
+.self-intro h1{
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: normal;
+    color: #bbb;
+}
+.self-intro p{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.contacts{
+    margin-bottom: 50px;
+    width: 360px; 
+    text-align: left;
+}
+.contacts p{
+     margin-top: 0; 
+     /* margin-bottom: 0;  */
+     border-bottom: 4px solid #000; 
+}
+.contacts>ul{
+    margin-top: 20px;
+}
+.contacts>ul>li{
+    font-weight: bold;   
+    line-height: 2;
+}
+.contacts>ul>li>span{
+    font-weight: normal;
+    margin-left: 20px;
+    text-align: left;
+}
+.contacts>ul>li>.num{
+    margin-left: 13px;
+}
+
+.experience,.education{
+    margin: 50px 0;
+}
+.experience h3,.education h3{
+    padding-bottom: 5px;
+
+    width: 300px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.experience .list,.education .list{
+    position: relative;
+    padding-left: 60px;
+    border-left: 1px solid rgba(0,0,0,0.6);
+    color: rgba(0,0,0,0.6);
+}
+.experience .list li,.education .list li{
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+   
+}
+.experience .list li::before,.education .list li::before{
+    content: '';
+    position: absolute;
+   
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #444;
+}
+.experience .list li:nth-child(1)::before,.education .list li:nth-child(1)::before{
+    left:-5px;
+    top: 0;
+}
+.experience .list li:nth-child(2)::before{
+    left:-5px;
+    top: 150px;
+}
+.education .list li:nth-child(2)::before{
+    left:-5px;
+    top: 144px;
+}
+.experience .list li:nth-child(3)::before{
+    left:-5px;
+    top: 296px;
+}
+.experience .list li p,.education .list li p{
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.experience .list .first-p,.education .list li p{
+    position: relative;
+    top:-6px;
+    /*这里层级提高了，没有办法*/
+}
+.experience .list span,.education .list span{
+    color:rgba(0,0,0,0.2);
+}
+
+
+@font-face {
+    font-family: 'icon';  /* project id 356634 */
+    src: url('//at.alicdn.com/t/font_v3cc1ro02a84zpvi.eot');
+    src: url('//at.alicdn.com/t/font_v3cc1ro02a84zpvi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_v3cc1ro02a84zpvi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_v3cc1ro02a84zpvi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_v3cc1ro02a84zpvi.svg#iconfont') format('svg');
+}
+
+.icon{
+    font-family:"icon" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+.i::before{
+    content:'\e6cf';
+    
+}
+
+.activity h3{
+    width: 300px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.activity ul span:nth-of-type(2){
+   margin-top: 10px;
+} 
+.activity li{
+   margin-left: 50px;       
+}
+.activity li p{
+    color: rgba(0,0,0,0.6);
+    font-size: 12px;
+}  
+.skills{
+    margin-left: 100px;
+}
+.skills h3{
+    width: 240px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.skills ul{
+    width: 400px;
+
+}
+.skills .list-wrapper{
+    width:400px;
+    
+}
+.skills .list-wrapper span{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.skills .list-wrapper:not(:nth-child(1)){
+    padding-top: 40px;
+}
+.skills .list-wrapper>span:first-child{
+   /* border: 1px solid red; */
+   margin-left: 0;
+}
+/* .skills .list-wrapper>li:nth-of-type(2){
+   border:1px solid;
+   
+} */
+#js{
+   margin-left:76px;
+   
+}
+#jq{
+   margin-left: 84px;
+}
+
+.skills .list-wrapper li{
+    display: inline-block;
+}
