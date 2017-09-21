@@ -1,0 +1,160 @@
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    margin: 50px auto;
+    width: 800px;
+    padding-left: 30px;
+    padding-top: 40px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.3),-2px -4px 8px rgba(0,0,0,0.3);
+}
+
+header{
+    margin: 50px 0;
+}
+
+.logo>img{
+    width: 160px;
+    border-radius: 50%;
+}
+
+
+.name h1{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: normal;
+    color: #bbb;
+}
+
+.name p{
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contacts{
+    margin-bottom: 50px;
+    width: 360px; 
+    text-align: left;
+}
+
+.contacts p{
+     margin-top: 0; 
+     border-bottom: 4px solid #000; 
+}
+
+.contacts>ul{
+    margin-top: 20px;
+}
+
+.contacts>ul>li{
+    font-weight: bold;   
+    line-height: 2;
+}
+
+.contacts>ul>li>span{
+    font-weight: normal;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.contacts>ul>li>.num{
+    margin-left: 13px;
+}
+
+.self-intro,.work-gallery{
+    margin: 50px 0;
+}
+
+.self-intro h3,.work-gallery h3,.myskill h3{
+    padding-bottom: 5px;
+    width: 300px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.self-intro .list{
+    position: relative;
+    padding-left: 60px;
+    border-left: 1px solid rgba(0,0,0,0.6);
+    color: rgba(0,0,0,0.6);
+}
+
+.self-intro .list a{
+    color:salmon;
+}
+
+.self-intro .list li{
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;  
+}
+
+.self-intro .list li::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #444;
+}
+
+.self-intro .list li:nth-child(1)::before{
+    left:-5px;
+    top: 0;
+}
+
+.self-intro .list li:nth-child(2)::before{
+    left:-5px;
+    top: 230px;
+}
+
+.self-intro .list li p{
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.self-intro .list .first-p{
+    position: relative;
+    top:-6px;
+}
+
+.work-gallery .list{
+    display: flex;
+    flex-flow: row wrap;
+    width: 800px;
+}
+.work-gallery .list li{
+    width: 50%;
+}
+
+.work-gallery .list li a{
+    color: salmon;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.myskill ul{
+    padding-left: 20px;
+}
+.myskill ul ul li{
+    line-height: 2;
+}
+
