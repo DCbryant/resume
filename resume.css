@@ -19,6 +19,7 @@ ul,li{
 }
 
 .wrapper{
+    background: linear-gradient(to bottom,salmon, orange, yellow, aqua );
     margin: 50px auto;
     width: 800px;
     padding-left: 30px;
@@ -28,20 +29,15 @@ ul,li{
 
 header{
     margin: 50px 0;
+    color: #fff;
 }
-
-.logo>img{
-    width: 160px;
-    border-radius: 50%;
-}
-
 
 .name h1{
     margin-bottom: 0;
     margin-top: 0;
     font-size: 40px;
     font-weight: normal;
-    color: #bbb;
+    color: #fff;
 }
 
 .name p{
@@ -58,7 +54,7 @@ header{
 
 .contacts p{
      margin-top: 0; 
-     border-bottom: 4px solid #000; 
+     border-bottom: 4px solid #fff; 
 }
 
 .contacts>ul{
@@ -98,7 +94,7 @@ header{
 }
 
 .self-intro .list a{
-    color:salmon;
+    color:#fff;
 }
 
 .self-intro .list li{
@@ -106,6 +102,7 @@ header{
     padding: 0;
     margin-top: 40px;  
 }
+
 
 .self-intro .list li::before{
     content: '';
@@ -146,7 +143,7 @@ header{
 }
 
 .work-gallery .list li a{
-    color: salmon;
+    color: rgba(255, 94, 0, 0.99);
     display: inline-block;
     margin-bottom: 20px;
 }
