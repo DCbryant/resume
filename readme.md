@@ -2,4 +2,4 @@
 
 this is my resume
 
-preview:　　
+preview: https://dcbryant.github.io/resume/resume.html
