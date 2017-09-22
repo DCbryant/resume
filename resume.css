@@ -19,7 +19,7 @@ ul,li{
 }
 
 .wrapper{
-    background: linear-gradient(to bottom,salmon, orange, yellow, aqua );
+    /* background: linear-gradient(to bottom,salmon, orange, yellow, aqua ); */
     margin: 50px auto;
     width: 800px;
     padding-left: 30px;
@@ -29,7 +29,7 @@ ul,li{
 
 header{
     margin: 50px 0;
-    color: #fff;
+    color: #000;
 }
 
 .name h1{
@@ -37,7 +37,7 @@ header{
     margin-top: 0;
     font-size: 40px;
     font-weight: normal;
-    color: #fff;
+    color: #000;
 }
 
 .name p{
@@ -54,7 +54,7 @@ header{
 
 .contacts p{
      margin-top: 0; 
-     border-bottom: 4px solid #fff; 
+     border-bottom: 4px solid #000; 
 }
 
 .contacts>ul{
