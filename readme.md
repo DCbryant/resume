@@ -1,3 +1,3 @@
 ## resume
 
-preview: https://dcbryant.github.io/resume/page.html
+preview: https://dcbryant.github.io/resume/myResume.html
