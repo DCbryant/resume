@@ -18,17 +18,24 @@ ul,li{
     padding: 0;
 }
 
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+
 .wrapper{
     /* background: linear-gradient(to bottom,salmon, orange, yellow, aqua ); */
     margin: 50px auto;
     width: 800px;
     padding-left: 30px;
-    padding-top: 40px;
+    padding-top: 30px;
     box-shadow: 2px 4px 8px rgba(0,0,0,0.3),-2px -4px 8px rgba(0,0,0,0.3);
 }
 
 header{
-    margin: 50px 0;
+    margin: 50px 0 0;
     color: #000;
 }
 
@@ -77,7 +84,8 @@ header{
 }
 
 .self-intro,.work-gallery{
-    margin: 50px 0;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .self-intro h3,.work-gallery h3,.myskill h3{
@@ -136,22 +144,100 @@ header{
 .work-gallery .list{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     width: 800px;
 }
 .work-gallery .list li{
-    width: 50%;
+    width: 45%;
+    margin-bottom: 16px;
 }
+
 
 .work-gallery .list li a{
     color: rgba(255, 94, 0, 0.99);
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .myskill ul{
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .myskill ul ul li{
-    line-height: 2;
+    line-height: 1.6;
 }
 
+.front-end,.back-end{
+    position: relative;
+    padding-left: 16px;
+    border-left: 1px solid rgba(0,0,0,0.6);
+}
+
+
+.front-end .html-css h5::before,
+.front-end .js h5::before,
+.front-end .frame h5::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #444;
+}
+
+.front-end .html-css h5::before{
+    top: 5px;
+    left: -16px;
+}
+
+.front-end .js h5::before{
+    top: 5px;
+    left: -16px;
+}
+
+
+.front-end .frame h5::before{
+    top: 5px;
+    left: -16px;
+}
+
+.front-end h5,.back-end h5{
+    position: relative;
+    top:-6px;
+}
+
+.back-end .nodejs h5::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #444;
+    top: 5px;
+    left:-16px;
+}
+
+.advantages{
+    position: relative;
+    padding-left: 16px;
+    border-left: 1px solid rgba(0,0,0,0.6);
+    height: 90%;
+}
+#echart{
+    position: relative;
+    top: 0;
+    left: 26px;
+}
+
+.myskill a{
+    color: salmon;
+}
+
+.myskill h4{
+    color: rgb(0, 153, 255);
+    position: relative;
+    left:-40px;
+}
+
+.skilllist,.point{
+    margin-left: 50px;
+}

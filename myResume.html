@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>resume</title>
+  <link rel="stylesheet" href="./myResume.css">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="clearfix">
+        <div class="name fl">
+            <h1>丁聪/dcbryant</h1>
+            <p>front-end engineers</p>
+        </div>
+        <div class="contacts fr">
+            <p>CONTACTS</p>
+            <ul>
+                <li>A  <span >湖北省武汉市</span></li>
+                <li>M  <span class="num">15717150620</span></li>
+                <li>Q  <span class="num">1515433745</span></li>
+                <li>E  <span>dcbryant753@gmail.com</span></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="self-intro">
+            <h3><i class="fa fa-arrows-v" aria-hidden="true" style="color:aquamarine"></i>  SELF INTRODUCTION</h3>
+            <ul class="list">
+                <li>
+                    <p class="first-p">学历：本科</p>
+                    <p>年龄：22</p>
+                    <p>目标城市：北京/杭州/上海</p>
+                    <p>Github:  <a href="https://github.com/DCbryant"><i class="fa fa-link" aria-hidden="true"></i>Github</a></p>
+                    <p>blog:  <a href="https://github.com/DCbryant/myblog"><i class="fa fa-link" aria-hidden="true"></i>Blog</a></p>
+                </li>
+                <li>
+                    <p>自我评价与追求：</p>
+                    <hr>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;我是一个乐观向上、性格幽默、做事认真，热爱运动的人。 我喜欢研究所碰到的各种技术，热衷解决碰到的任何程序问题，不给自己设边界，有 Geek 精神。我有时间概念，能在约定时间内保证完成任务。我正在寻找一家公司希望加入一个以技术为驱动，从事前端开发工作，并且可以提升大型项目的驾驭能力，希望新工作有成长空间，技术上有挑战性，技术氛围够Geek，使人有成就感的互联网公司</p>
+                </li>
+            </ul>
+        </div>
+        <div class="work-gallery">
+            <h3><i class="fa fa-arrows-v" aria-hidden="true" style="color:aquamarine"></i>  WORK GALLERY</h3>
+            <ul class="list">
+                <li>
+                    <a href="https://github.com/DCbryant/react-notebook"><i class="fa fa-link" aria-hidden="true"></i>  react记事本</a>
+                    <div className="item-wrapper">
+                        <p>功能介绍：一个操作简便的Todolist应用，支持多用户在线注册，登陆，数据同步到云，支持增删查功能</p>
+                        <p>技术细节：利用react构建，将该应用拆分成多个组件。同时在应用复杂时，仍使数据传递呈现清晰的逻辑，包括父子通信等等，将每条TodoItem存储到leancloud，用来存取数据</p>
+                        <p>使用技能：react leancloud</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="https://github.com/DCbryant/music-demo"><i class="fa fa-link" aria-hidden="true"></i>  网易云音乐</a>
+                    <div className="item-wrapper">
+                        <p>功能介绍：利用jquery模仿的移动端网易云音乐，支持最新音乐，热歌榜，搜索，播放，暂停、歌词滚动显示功能</p>
+                        <p>技术细节：歌曲的存取都用到了leancloud，界面的展示利用到了jquery，自适应实现利用到了vw</p>
+                        <p>使用技能：jquery leancloud</p>  
+                    </div>
+                </li>
+                <li>
+                    <a href="https://github.com/DCbryant/crawler"><i class="fa fa-link" aria-hidden="true"></i>  nodejs爬取房源信息</a>
+                    <div className="item-wrapper">
+                        <p>功能介绍：利用nodejs爬取到北京豆瓣小组的房源信息</p>
+                        <p>技术细节：利用request爬取数据，先获取导航页URL以及数据，用jsdom模块解析dom，利用fs模块将所有信息存到data.json</p>
+                        <p>使用技能：nodejs </p> 
+                    </div>
+                </li>
+                <li>
+                    <a href="https://github.com/DCbryant/Don-t-StepOnWhitePiece"><i class="fa fa-link" aria-hidden="true"></i>  别踩白块儿</a>
+                    <div className="item-wrapper">
+                        <p>功能介绍：利用canvas和原生js实现的别踩白块儿小游戏</p>
+                        <p>技术细节：每一行方块都用0或1的数组表示，点击到黑色方块就将它颜色变为白色，否则游戏结束</p>
+                        <p>使用技能：canvas js</p> 
+                    </div>
+                </li>
+                <li>
+                    <a href="https://github.com/DCbryant/js-components"><i class="fa fa-link" aria-hidden="true"></i>  面向对象组件</a>
+                    <div className="item-wrapper">
+                        <p>功能介绍：功能介绍：使用面向对象思想，实现了常见页面效果，包括drag、carousel、tab、music等等8个组件</p>
+                        <p>技术细节：每个组件都是先实现其基本功能，然后用面向对象的方法封装</p>
+                        <p>使用技能：面向对象 js jquery</p> 
+                    </div>
+                </li>
+                <li>
+                    <a href="https://dcbryant.github.io/react-resume/build"><i class="fa fa-link" aria-hidden="true"></i>  react-resume</a>
+                    <div className="item-wrapper">
+                        <p>功能介绍：一个为了面试制作的在线简历，从各方面展示自我</p>
+                        <p>技术细节：用create-react-app构造，其中用到了react-router react-echarts</p>
+                        <p>使用技能：react react-router react-echarts</p> 
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer class="clearfix">
+        <div class="fl myskill">
+            <h3><i class="fa fa-arrows-v" aria-hidden="true" style="color:aquamarine"></i>  MY SKILL</h3>
+            <ul>
+                <li class="skilllist">
+                    <h4>FRONT END</h4>
+                    <ul class="front-end">
+                        <li class="html-css">
+                            <h5>HTML && CSS</h5>
+                            <p>熟悉HTML、CSS,对Web标准和标签语义化有一定的理解</p>
+                            <p>能够编写比较语义化的HTML，模块化的css，完成比较复杂的布局</p>
+                            <p>熟悉HTML5和CSS3，并能熟练使用新特性，比如flex</p>
+                            <p>对SASS等预处理语言有实践经验</p>
+                            <p>作品：<a href="https://github.com/DCbryant/myblog/issues/43"><i class="fa fa-link" aria-hidden="true"></i>css布局总结</a> <a href="https://github.com/DCbryant/pikachu"><i class="fa fa-link" aria-hidden="true"></i>纯html+css3实现的皮卡丘</a> <a href="https://dcbryant.github.io/Front-end-small-project/gintama/"><i class="fa fa-link" aria-hidden="true"></i>自制银魂官网</a></p>
+                        </li>
+                        <li class="js">
+                            <h5>JS</h5>
+                            <p>熟悉js，能脱离jquery等类库编码</p>
+                            <p>能利用js和jquery实现常见效果，熟悉事件模型、DOM 操作、ajax、jsonp、闭包等知识</p>
+                            <p>能运用模块化、面向对象的方式编程</p>
+                            <p>对es6有一定的了解，常见的能够熟练使用</p>
+                            <p>作品：<a href="https://dcbryant.github.io/Front-end-small-project/snake/"><i class="fa fa-link" aria-hidden="true"></i>贪吃蛇</a>  <a href="https://dcbryant.github.io/Front-end-small-project/wishing-wall/"><i class="fa fa-link" aria-hidden="true"></i>许愿墙</a>  <a href="https://github.com/DCbryant/js-components"><i class="fa fa-link" aria-hidden="true"></i>面向对象组件</a></p>
+                        </li>
+                        <li class="frame">
+                            <h5>框架 && 工程化</h5>
+                            <p>了解webapck，能够依靠文档完成一般的配置</p>
+                            <p>熟悉JQUERY、react的使用</p>
+                            <p>对前端安全、性能优化有一定的了解</p>
+                            <p>熟练使用vscode、git等工具的使用</p>
+                            <p>作品：<a href="https://github.com/DCbryant/react-comment"><i class="fa fa-link" aria-hidden="true"></i>react-comment</a> <a href="https://github.com/DCbryant/music-demo"><i class="fa fa-link" aria-hidden="true"></i>网易云音乐</a>  <a href="https://github.com/DCbryant/react-resume"><i class="fa fa-link" aria-hidden="true"></i>react-resume</a></p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="skilllist">
+                    <h4>BACK END</h4>
+                    <ul class="back-end">
+                        <li class="nodejs">
+                            <h5>NODE</h5>
+                            <p>了解node，对node很感兴趣，能够做出一些便利的小玩意儿</p>
+                            <p>作品：<a href="https://github.com/DCbryant/crawler"><i class="fa fa-link" aria-hidden="true"></i>nodejs爬虫</a></p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="skilllist">
+                    <h4>ADVANTAGES</h4>
+                    <ul class="advantages">
+                        <li>有解决问题的能力，乐于交流和表达</li>
+                        <li>热爱写代码，喜欢钻研新技术,觉得写代码很有趣并乐在其中</li>
+                        <li>乐于学英语，明白英语好才能够称为大牛，梦想成为大牛</li>
+                    </ul>
+                </li>
+                <li class="point">
+                    <h4>SKILL POINTS</h4>
+                    <div id="echart" style="width: 600px;height:400px;"></div>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+<script src="http://echarts.baidu.com/dist/echarts.js"></script>
+<script>
+
+    var myChart = echarts.init(document.getElementById('echart'));
+    const option = {
+        tooltip: {},
+        legend: {
+            data: ['能力', '兴趣'],
+        },
+        radar: {
+            // shape: 'circle',
+            indicator: [
+                { name: 'HTML&HTML5', max: 100},
+                { name: 'CSS&CSS3', max: 100},
+                { name: 'JS', max: 100},
+                { name: 'jQuery', max: 100},
+                { name: 'node',max:100},
+                { name: 'React JS', max:100}
+            ]
+        },
+        series: [{
+            name: '能力 vs 兴趣（skill vs interesting）',
+            type: 'radar',
+            
+            data : [
+                {
+                    value : [90, 80, 75, 75, 65, 70],
+                    name : '能力'
+                },
+                {
+                    value : [80, 90, 90, 70, 80, 90],
+                    name : '兴趣'
+                }
+            ]
+        }]
+    }
+    myChart.setOption(option);
+	
+</script>
+</body>
+</html>
