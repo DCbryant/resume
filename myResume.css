@@ -85,7 +85,7 @@ header{
 
 .self-intro,.work-gallery{
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 0;
 }
 
 .self-intro h3,.work-gallery h3,.myskill h3{
@@ -94,42 +94,41 @@ header{
     border-bottom: 1px solid rgba(0,0,0,0.3);
 }
 
+.myskill h3{
+    margin-top: 0;
+}
+
 .self-intro .list{
     position: relative;
-    padding-left: 60px;
+    padding-left: 20px;
     border-left: 1px solid rgba(0,0,0,0.6);
     color: rgba(0,0,0,0.6);
+    line-height: 230px;
 }
 
 .self-intro .list a{
     color:salmon;
 }
 
+.self-intro .list{
+    display: flex;
+    
+}
+
 .self-intro .list li{
     margin: 0;
     padding: 0;
-    margin-top: 40px;  
+    margin-top: 20px;  
+    width: 50%;
 }
 
-
-.self-intro .list li::before{
-    content: '';
+.self-intro .list li:nth-child(2){
     position: absolute;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    background-color: #444;
+    top: -8px;
+    right: 20px;
 }
 
-.self-intro .list li:nth-child(1)::before{
-    left:-5px;
-    top: 0;
-}
 
-.self-intro .list li:nth-child(2)::before{
-    left:-5px;
-    top: 230px;
-}
 
 .self-intro .list li p{
     line-height: 1.5;
@@ -140,6 +139,7 @@ header{
     position: relative;
     top:-6px;
 }
+
 
 .work-gallery .list{
     display: flex;
