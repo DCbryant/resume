@@ -241,3 +241,7 @@ header{
 .skilllist,.point{
     margin-left: 50px;
 }
+
+.point h4{
+    margin-bottom: 150px;
+}
